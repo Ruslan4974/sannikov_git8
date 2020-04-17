@@ -1,0 +1,4 @@
+FROM postgres:latest
+ENV POSTGRES_USER user1
+ENV POSTGRES_PASSWORD changeme
+ENV POSTGRES_DB tododb
